@@ -4,7 +4,7 @@
 
 #stinkle{
     background-image: url("images/istockphoto-673326758-170667a.jpeg");
-    background-size: contain;
+    background-size: 1in;
 }
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,4 +13,13 @@
 #overall{
     cursor: crosshair;
     background-color: rgb(225, 225, 225) ;
+    table-layout: fixed;
+    height: 255.75px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }

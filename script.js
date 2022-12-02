@@ -8,7 +8,7 @@ function getRandomInt(max) {
 
 function showAns(){
     var randnum = getRandomInt(maxnum[0].value)
-    h1[0].innerHTML = "✼" + randnum + "✼"
+    h1[0].innerHTML = randnum
 }
 
 function disappear(){
