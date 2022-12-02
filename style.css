@@ -2,7 +2,7 @@
     font-variant: small-caps;
 }
 
-#stinkle{
+#body{
     background-image: url("images/istockphoto-673326758-170667a.jpeg");
     background-size: 1in;
 }
@@ -12,14 +12,28 @@
 
 #overall{
     cursor: crosshair;
-    background-color: rgb(225, 225, 225) ;
-    table-layout: fixed;
-    height: 255.75px;
+    background-color: rgb(225, 225, 225, 0) ;
 }
-
-.container{
+.title{
+    background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    padding:15px;
+    border:2px solid black;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.test{
+    min-height: 45px;
+}
+
+.generator{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: auto;
 }
