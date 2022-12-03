@@ -28,6 +28,23 @@
     min-height: 45px;
 }
 
+#maxnum{
+    border-color: rgb(56, 56, 56);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#output{
+    border-color: rgb(56, 56, 56);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#randgen{
+    border-radius: 10px;
+    text-align: center;
+}
+
 .generator{
     margin: 20px;
     background-color: rgb(255, 255, 255);
